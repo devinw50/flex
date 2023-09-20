@@ -3,8 +3,8 @@ html,
 * {
     font-size: 10px;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0%;
+    margin: center;
+    padding: 1%;
 }
 
 
@@ -26,11 +26,14 @@ html,
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border: 8px solid black;
+    border-radius: 8%;
 
 }
 
 .card-img {
     width: 95%;
+    
 }
 
 .container {
@@ -44,4 +47,21 @@ html,
 .title {
     text-align: center;
     font-size: 3000%;
+}
+
+.firstpic{
+    width: 1000;
+ 
+}
+
+.charizard{
+    width: 1000;
+}
+
+.margikarp{
+    width: 1000;
+}
+
+.mew{
+    width: 1000;
 }
