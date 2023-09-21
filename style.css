@@ -7,13 +7,15 @@ html,
     padding: 1%;
 }
 
-
+body{
+    background-color: rgb(137, 197, 207);
+}
 .card-price {
     font-size: 90;
 }
 
 .card-title {
-    font-size: 100;
+    font-size: 1000%;
     margin: 0.5rem 0;
     text-transform: uppercase;
     
@@ -21,19 +23,21 @@ html,
 .card {
     height: 57vh;
     width: 23vw;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    border: 8px solid black;
+    justify-content: space-between;
+    border: 8px solid rgb(0, 0, 0);
     border-radius: 8%;
-
+box-shadow: 50;
 }
-
+.card-price {
+    color: rgb(0, 0, 0);
+    font-size:900%;
+}
 .card-img {
     width: 95%;
-    
 }
 
 .container {
@@ -47,21 +51,45 @@ html,
 .title {
     text-align: center;
     font-size: 3000%;
+    color: white;
 }
 
+.card-title{
+    color: rgb(0, 0, 0);
+}
 .firstpic{
-    width: 1000;
+    width: 60%;
  
 }
 
 .charizard{
-    width: 1000;
+    width: 60%;
 }
 
 .margikarp{
-    width: 1000;
+    width: 60%;
 }
 
 .mew{
-    width: 1000;
+    width: 60%;
+}
+
+.lugia{
+    width: 60%;
+}
+
+.tyranitar{
+    width: 60%;
+}
+
+.umbreon{
+    width: 60%;
+}
+
+.clefable{
+    width: 60%;
+}
+
+.pidgeot{
+    width: 60%;
 }
